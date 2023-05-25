@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador - Proyecto 01</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <h1><img src="imagenes/logo_alura.svg" alt="logo-alura"></h1>
+        </header>
+        
+        <main class="main-container">
+        <div class="msbox-container">
+            <section class="msgbox-encriptado">
+                <textarea name="encriptar-texto" placeholder="Ingrese el texto aquí" id="input-text" class="input-text" ></textarea>
+            </section>
+            <section class="buttons">
+                <p class="info"> <img class="info-icon" src="imagenes/info-icon.png"> Solo letras minúsculas y sin acentos</p>
+                <p><button class="btn" onclick="convertirMsg()">Encriptar</button>
+                <button class="btn btn-color" onclick="desconvertirMsg()">Desencriptar</button>
+            </section>
+                </div>
+            
+            <section class="msgbox-desencriptado">
+                <div class="msgbox-text" id="msgbox-text">
+                    <p><img src="imagenes/img-found.svg" class="img-search" alt="Imagen texto no encontrado"></p>
+                        <p><h3>Ningún mensaje fue encontrado</h3></p>
+                        <p class="texto-inicio">Ingresa el texto que desees encriptar o desencriptar.</p>
+                            </div>
+                    <textarea name="desencriptar-texto" id="output-text" class="output-text"></textarea>
+                    <button class="btn btn-color" id="btn-copy" onclick="copiarMsg()">Copiar</button>
+                        
+            </section>
+            
+            </main>
+
+        <footer>
+            Realizado por Samara Leon. Programa ONE. 2023. <a target="_blank" href="https://icons8.com/icon/42SQTTISIN17/info">Iconos e Ilustraciones</a> por <a target="_blank" href="https://icons8.com">Icons8</a> <a href="https://www.drawkit.com/illustrations/grape-illustrations">Drawkit</a>
+        </footer>
+        <script src="main.js"></script>
+    </body>
+
+    
+</html>

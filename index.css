@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background-color: #E5E5E5;
+}
+
+header {
+    margin: 20px 0 0 40px;
+    padding: 20px 0;
+}
+
+h3 {
+    color: #343A40;
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.msbox-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.msgbox-encriptado {
+    width: 600px;
+    height: 80%;
+    background: none;
+    margin: 0 auto;
+
+}
+
+.input-text {
+    width: 500px;
+    height: 60%;
+    color: #0A3871;
+    background: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding: 10px 25px;
+    margin: 20px 20px;
+    border: none;
+    overflow: auto;
+    resize: none;
+}
+
+.input-text::placeholder { 
+    color: #0A3871;
+}
+
+.msgbox-desencriptado {
+    width: 380px;
+    height: 944px;
+    background: #FFF;
+    border-radius: 1em;
+    box-shadow: 0px 0px 10px 5px rgba(73, 80, 87, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 20px 30px;
+}
+
+.output-text {
+    width: 300px;
+    height: 80%;
+    color: #495057;
+    background: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 10px 25px;
+    margin: 20px auto;
+    border: none;
+    display: none;
+    overflow: auto;
+    resize: none;
+}
+
+.msgbox-text {
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+}
+
+.img-search {
+    width: 70%;
+}
+
+.texto-inicio {
+    color: #495057;
+}
+
+.info-icon {
+    vertical-align: middle;
+}
+.info {
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.buttons {
+    width: 100%;
+    display: inline;
+    margin: 10px 30px;
+}
+
+.btn {
+    width: 250px;
+    height: 57px;
+    padding: 15px 0;
+    margin: 30px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    color: #FFF;
+    background: #0A3871;
+    border-radius: 1em;
+    border: #0A3871 solid 1px;
+    transition: 1s all;
+    cursor: pointer; 
+}
+
+.btn:hover {
+    color: #0A3871;
+    background: #D8DFE8;
+    border: #0A3871 solid 1px;
+}
+
+.btn-color {
+    color: #0A3871;
+    background: none;
+}
+
+#btn-copy {
+    display: none;
+    text-align: center;
+    margin: 30px auto;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    margin: 30px auto;
+}
+
+@media screen and (max-width:480px) {
+
+    h1 {
+        margin: 10px auto;
+    }
+
+    .main-container{
+        width: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;        
+    }
+
+    .msbox-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .msgbox-encriptado {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .msgbox-desencriptado {
+        width: 100%;
+        height: auto;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .input-text, .output-text {
+        width: auto;
+    }
+
+    .buttons {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    #btn-copy {
+        width: 80%;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .img-search {
+        display: none;
+    }
+
+    
+}
+
+@media screen and (max-width:950px)  {
+
+    h1 {
+        margin: 10px auto;
+    }
+
+    .main-container{
+        width: auto;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;    
+    }
+
+    .msbox-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .msgbox-encriptado {
+        width: 100%;
+        height: 60%;
+    }
+
+    .msgbox-desencriptado {
+        width: 90%;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .msgbox-text {
+        margin: 20px 20px;
+    }
+
+    .input-text, .output-text {
+        width: 80%;
+    }
+
+    .buttons {
+        width: 100%;
+        display: inline-block;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .btn {
+        width: 300px;
+        margin: 10px 30px;
+    }
+
+    .info {
+        text-align: left;
+    }
+    .img-search {
+        display: none;
+    }
+}
