@@ -1,5 +1,6 @@
 # Proyecto-Encriptador
 Primer proyecto del Programa ONE Allura Latam #challengeonecodificador5
+
 Esta aplicación es capaz de encriptar textos para intercambiar mensajes secretos con otras personas.
 
 Las "llaves" de encriptación que se utilizan son las siguientes:
