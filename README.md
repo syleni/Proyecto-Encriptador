@@ -1,6 +1,8 @@
 # Proyecto-Encriptador
 Primer proyecto del Programa ONE Allura Latam #challengeonecodificador5
 
+Se realizó una versión responsiva para móviles y tabletas. => ttps://encrip-pro01.netlify.app/
+
 Esta aplicación es capaz de encriptar textos para intercambiar mensajes secretos con otras personas.
 
 Las "llaves" de encriptación que se utilizan son las siguientes:
@@ -26,6 +28,4 @@ inserción del texto que será encriptado o desencriptado, y el usuario debe pod
 Extras:
 <br>Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
 
-Se realizó una versión responsiva para móviles y tabletas.
-  
-https://encrip-pro01.netlify.app/
+
