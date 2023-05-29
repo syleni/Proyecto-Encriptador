@@ -1,7 +1,7 @@
 # Proyecto-Encriptador
 Primer proyecto del Programa ONE Allura Latam #challengeonecodificador5
 
-Se realizó una versión responsiva para móviles y tabletas. => ttps://encrip-pro01.netlify.app/
+Se realizó una versión responsiva para móviles y tabletas. => https://encrip-pro01.netlify.app/
 
 Esta aplicación es capaz de encriptar textos para intercambiar mensajes secretos con otras personas.
 
