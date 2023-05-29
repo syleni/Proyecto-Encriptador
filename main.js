@@ -21,9 +21,7 @@ function convertirMsg() {
                 msgInicial.style.display = "none";
                 botonCopiar.style.display = "block";
                 outputText.style.display = "block";
-        }
-
-    
+        } 
 }
 
 function desconvertirMsg() {
@@ -40,20 +38,4 @@ function copiarMsg() {
 }
 
 
-
-/*function validarMsg() {
-    var mayus = /[A-Z]/g;
-    var caracteres = /[~!@#$%^&*()_+|}{[\]\\\/?><:"`;.,áéíóúàèìòù']/g;
-    var inputText = document.getElementById("input-text").value;
-    
-    if(!inputText) {
-        textoValido = false;
-        alert("Escribe tu mensaje.")
-        } else if(mayus.test(inputText) && caracteres.test(inputText)){ 
-            textoValido = false;
-            alert("Solo letras minúsculas y sin acentos.")
-        } else {
-            textoValido = true;
-            }
-                }*/
     
